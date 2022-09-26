@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background: #25274D;
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif !important;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: #BBB6E1;
+  transition-duration: 300ms;
+}
+
+button {
+  height: 40px;
+  padding: 20px 15px;
+  border: 1px solid #4C4BC4;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+Link {
+  cursor: pointer;
+}
+
+.codet {
+  font-family: 'Inconsolata', 'monospace';
+}
+
+.regt {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.submit {
+  background-color: #34495e;
+  color: #16a085;
+}
+
+code {
+  background: #ffeff0;
+  word-wrap: break-word;;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+  font-weight: 600 !important;
+  font-family: 'Inconsolata', monospace;
+}
